@@ -24,7 +24,7 @@ export default function Home() {
       <main className={`h-screen w-screen bg-white text-white ${karla.className}`}>
         {/* Intro */}
         <section className="bg-image flex w-full flex-col bg-dark-violet md:h-[430px] md:flex-row md:gap-6 md:px-20 md:py-10 lg:h-[600px] lg:px-24 lg:py-24 xl:h-[600px] xl:px-36">
-          <div className="order-2 flex-col items-center bg-dark-violet bg-transparent px-6 py-16 text-center md:order-1 md:mx-auto md:block md:w-[50%] md:py-8 md:text-left lg:py-24">
+          <div className="order-2 flex-col items-center bg-dark-violet bg-transparent py-16 text-center md:order-1 md:mx-auto md:block md:w-[50%] md:py-8 md:text-left lg:py-24 px-6 md:px-0">
             <div className="border-top"></div>
             <h1
               className={`mt-8 text-4xl md:mt-0 md:break-words xl:text-5xl ${dmSerifDisplay.className}`}
@@ -62,7 +62,7 @@ export default function Home() {
         </section>
 
         {/* How we work */}
-        <section className="px-6 pb-32 text-center text-very-dark-violet md:px-24 lg:px-32">
+        <section className="px-6 pb-32 text-center text-very-dark-violet md:px-20 lg:px-24 xl:px-36">
           <div className="mx-auto mt-32 w-36 border-t border-[#C396C6] lg:mx-0"></div>
 
           <h2
@@ -145,7 +145,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer
-          className="bg-very-light-gray bg-pattern-footer-mobile bg-top bg-no-repeat px-6 text-very-dark-violet md:px-24 lg:px-32 pb-24 md:pb-10"
+          className="bg-very-light-gray bg-pattern-footer-mobile bg-top bg-no-repeat px-6 text-very-dark-violet md:px-20 lg:px-24 xl:px-36 pb-24 md:pb-10"
         >
           <div className="items-center justify-center space-y-6 pb-16 pt-24 md:flex md:justify-between border-b border-dark-grayish-violet">
             <img
@@ -231,7 +231,7 @@ export default function Home() {
             </ul>
           </div>
 
-          <div className="md:justify-between md:text-left text-center uppercase font-extrabold text-sm md:inline-flex md:space-x-20 lg:space-x-32 xl:space-x-56">
+          <div className="md:justify-between md:text-left text-center uppercase font-extrabold text-sm md:inline-flex md:space-x-20 lg:space-x-32 xl:space-x-52">
             <ul>
               <li className="py-6 mt-2  text-dark-grayish-violet"><p>our company</p></li>
               <li className="hover:underline "><Link href={'/#'}>how we work</Link></li>

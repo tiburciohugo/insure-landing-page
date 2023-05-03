@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="flex w-full items-center justify-between bg-white p-6 md:px-8 lg:px-24">
+      <div className="flex w-full items-center justify-between bg-white p-6 md:px-20 lg:px-24 xl:px-36">
         <img src="/assets/logo.svg" alt="Logo" />
 
         <nav className="hidden items-center gap-6 md:flex">
